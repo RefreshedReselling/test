@@ -36,7 +36,7 @@
                             <label>Password</label>
                             <input type="text" class="form-control key-input left-text" name="password" style="text-align: center;" autocomplete="false">
                         </ul>
-                        <button type="submit" class="btn btn-lg btn-rounded blue-gradient" style="font-weight: 600;">Enter</button>
+                        <button type="submit" class="btn btn-lg btn-rounded btn-blue-gradient" style="font-weight: 600;">Enter</button>
                     </div>
                 </div>
             </form>
@@ -77,7 +77,7 @@
                                 <label>Card Number</label>
                                 <div id="card-element"></div>
                             </ul>
-                            <button type="submit" class="btn btn-lg btn-rounded blue-gradient" style="font-weight: 600;" {{ 'disabled' if user == null }}>
+                            <button type="submit" class="btn btn-lg btn-rounded btn-blue-gradient" style="font-weight: 600;" {{ 'disabled' if user == null }}>
                                 {{ 'Purchase' if user else 'You must be signed in to Purchase' }}
                             </button>
                         </div>
